@@ -238,7 +238,23 @@ justify-content: center;
 }
 
 /*=============== FILTERS TABS ===============*/
+.filters__content{
+  margin: 2rem 0 2.5rem;
+  background-color: var(--text-color-lighten);
+  padding: .375rem;
+  border-radius: .75rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: .5rem;
+}
 
+.filters__button{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: ;
+}
 
 /*=============== PROJECTS ===============*/
 

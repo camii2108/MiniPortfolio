@@ -333,8 +333,35 @@ transition: .3s;
   column-gap: 3rem;
 }
 
-/* Hide and show projects & skills */
+.skills__group{
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
+}
 
+.skills__data i{
+  font-size: 1rem;
+  color: var(--first-color);
+}
+
+.skills__name{
+  font-size: var(--normal-font-size);
+  font-weight: 500px;
+  line-height: 18px;
+}
+
+.skills__level{
+  font-size: var(--small-font-size);
+}
+
+/* Hide and show projects & skills */
+.filters [data-content] {
+  display: none;
+}
+
+.filters__active[data-content]{
+  display: grid;
+}
 
 /* Activate button filter */
 

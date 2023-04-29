@@ -170,6 +170,27 @@ justify-content: center;
   color: var(--first-color);
 }
 
+.profile__info {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.profile__info-group{
+  text-align: center;
+}
+
+.profile__info-number{
+  font-size: var(--normal-font-size);
+  margin-bottom: .25rem;
+
+}
+
+.profile__info-decription{
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
+
 /*=============== BUTTONS ===============*/
 
 
